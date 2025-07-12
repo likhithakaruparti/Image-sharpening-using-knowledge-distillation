@@ -1,7 +1,10 @@
 # Image-sharpening-using-knowledge-distillation
 Description: This project improves blurred images using a lightweight student CNN trained through knowledge distillation from a powerful transformer-based model, Restormer. The goal is to reduce model size while maintaining high image sharpening quality, making the solution suitable for deployment on real-time or low-power devices.
+
 Problem Statement: High-performing models like Restormer provide excellent image sharpening but are too large for low-resource environments. This project uses knowledge distillation to train a compact CNN that mimics the teacher’s output and runs efficiently on lightweight systems.
+
 Solution: A teacher-student setup is used where Restormer (teacher) produces sharp images, and a custom CNN (student) learns to replicate its outputs. No ground-truth labels are needed — the student learns only from the teacher. The student is then used alone for image sharpening.
+
 Technologies used: Python - Core language  
 PyTorch - Model training and architecture  
 Torchvision - Transformations and DataLoader  
