@@ -19,6 +19,18 @@ git clone https://github.com/swz30/Restormer.git
 Download the weights and place them at:
 Restormer/weights/deraining.pth
 
+Dataset (1029 Image Pairs):
+Due to size limits, the dataset is hosted externally.  
+You can download it from Google Drive using the link below:
+
+🔗 [Download Dataset]: https://drive.google.com/file/d/15LyLdFQW-7aZiVSEZZKu5lve2BedWafq/view?usp=sharing
+
+After downloading, extract the zip and place it like this:
+data/
+├── blur/
+└── sharp/
+
+
 Folder Structure: 
 data/
 ├── blur/
