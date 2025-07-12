@@ -21,9 +21,9 @@ Restormer/weights/deraining.pth
 
 Dataset (1029 Image Pairs):
 Due to size limits, the dataset is hosted externally.  
-You can download it from Google Drive using the link below:
+You can download it from Kaggle using the link below:
 
-🔗 [Download Dataset]: https://drive.google.com/file/d/15LyLdFQW-7aZiVSEZZKu5lve2BedWafq/view?usp=sharing
+🔗 [Download Dataset]: https://www.kaggle.com/datasets/rahulbhalley/gopro-deblur
 
 After downloading, extract the zip and place it like this:
 data/
