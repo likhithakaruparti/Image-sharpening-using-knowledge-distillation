@@ -26,26 +26,24 @@ You can download it from Kaggle using the link below:
 🔗 [Download Dataset]: https://www.kaggle.com/datasets/rahulbhalley/gopro-deblur
 
 After downloading, extract the zip and place it like this:
+```plaintext
 data/
 ├── blur/
 └── sharp/
 
-
-Folder Structure: 
-data/
-├── blur/
-└── sharp/
 Restormer/
 ├── basicsr/
 ├── weights/
 ├── ...
-scripts:
+
+scripts/
 ├── train_student.py
 ├── evaluate_metrics.py
 ├── visualize_results.py
 ├── dataset.py
 ├── student_model.py
 ├── teacher_test.py
+
 
 Setup Instructions: 
 # Create virtual environment
